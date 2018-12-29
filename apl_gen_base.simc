@@ -75,9 +75,9 @@ single_actor_batch="1"
 optimize_expressions="1"
 bfa.reorigination_array_stacks="10"
 
-json2=report.json
-html=report.html
-output=log.txt
+json2=tmp\report.json
+html=tmp\report.html
+output=tmp\log.txt
 
 threads=4
 profileset_work_threads=1
