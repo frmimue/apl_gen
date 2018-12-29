@@ -1,0 +1,7 @@
+apl_gen_base.simc
+html=report.html
+iterations=10000
+copy="0"
+actions=/shadow_bolt
+copy="1"
+actions=/demonbolt

@@ -1,0 +1,62 @@
+<actionlist> ::= <action> "/" <actionlist>
+<actionlist> ::= <action>
+
+<action> ::= <action> ",if=" <condition>
+<action> ::= "potion"
+<action> ::= "call_dreadstalkers"
+...
+
+<condition> ::= "(" <condition> ")"
+<condition> ::= <condition> & <condition>
+<condition> ::= <condition> | <condition>
+<condition> ::= <condition>
+
+<boolcondition> ::= ! <boolcondition>
+<boolcondition> ::= "buff.demonic_core.up"
+...
+
+<numbercondition> ::= <numbercondition> < <number>
+<numbercondition> ::= <numbercondition> > <number>
+<numbercondition> ::= <numbercondition> <= <number>
+<numbercondition> ::= <numbercondition> >= <number>
+<numbercondition> ::= <numbercondition> = <number>
+<numbercondition> ::= "soul_shard"
+...
+
+
+---------------
+<action> ::= <action> ",if=" <condition>
+         ::= "demonic_strength" ",if=" <condition>
+         ::= "demonic_strength" ",if=" <condition> | <condition>
+         ::= "demonic_strength" ",if=" "(" <condition> ")" | <condition?
+         ::= "demonic_strength" ",if=" "(" <condition> | <condition> ")" | <condition>
+         ::= "demonic_strength" ",if=" "(" "buff.wild_imps.stack<6" | <condition> ")" | <condition>
+         ::= "demonic_strength" ",if=" "(" "buff.wild_imps.stack<6" | "buff.demonic_power.up" ")" | <condition>
+         ::= "demonic_strength" ",if=" "(" "buff.wild_imps.stack<6" | "buff.demonic_power.up" ")" | "spell_targets.implosion<2"
+
+actions+=/demonic_strength,if=(buff.wild_imps.stack<6|buff.demonic_power.up)|spell_targets.implosion<2
+---------------
+
+ACTIONS:
+potion
+call_dreadstalkers
+summon_demonic_tyrant
+hand_of_guldan
+demonbolt
+shadow_bolt
+
+----- Talents
+doom
+demonic_strength
+grimoire_felguard
+summon_vilefiend
+power_siphon
+soul_strike
+bilescourge_bombers
+nether_portal
+
+----- AoE only
+implosion
+
+----- Other
+use_items

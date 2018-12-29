@@ -1,0 +1,8 @@
+actions.precombat=flask
+actions.precombat+=/food
+actions.precombat+=/augmentation
+actions.precombat+=/summon_pet
+actions.precombat+=/inner_demons,if=talent.inner_demons.enabled
+actions.precombat+=/snapshot_stats
+actions.precombat+=/potion
+actions.precombat+=/demonbolt

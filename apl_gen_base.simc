@@ -1,0 +1,80 @@
+warlock="Nuraki"
+source=default
+spec=demonology
+level=120
+race=void_elf
+role=spell
+position=back
+professions=tailoring=150/enchanting=63
+talents=3123331
+
+# Default consumables
+potion=battle_potion_of_intellect
+flask=endless_fathoms
+food=bountiful_captains_feast
+augmentation=battle_scarred
+
+# This default action priority list is automatically created based on your character.
+# It is a attempt to provide you with a action list that is both simple and practicable,
+# while resulting in a meaningful and good simulation. It may not result in the absolutely highest possible dps.
+# Feel free to edit, adapt and improve it to your own needs.
+# SimulationCraft is always looking for updates and improvements to the default action lists.
+actions.precombat=flask
+actions.precombat+=/food
+actions.precombat+=/augmentation
+actions.precombat+=/summon_pet
+actions.precombat+=/inner_demons,if=talent.inner_demons.enabled
+actions.precombat+=/snapshot_stats
+actions.precombat+=/potion
+actions.precombat+=/demonbolt
+
+head=stormlurkers_cowl,id=159244,bonus_id=5062/1557/4786/4775,azerite_powers=428/30/83/13
+neck=heart_of_azeroth,id=158075,bonus_id=4936/4929/4930/1540,azerite_level=35
+shoulders=mantle_of_contained_corruption,id=160613,bonus_id=4824/1507/4786/4775,azerite_powers=483/22/15/13
+back=fetid_horrors_tanglecloak,id=160643,bonus_id=4800/1517/4783
+chest=petticoat_of_the_selfstylized_azerite_baron,id=158349,bonus_id=5061/1557/4786/4775,azerite_powers=429/30/14/13
+wrists=wraps_of_everliving_fealty,id=158348,bonus_id=5010/1567/4784
+hands=mutagenic_protofluid_handwraps,id=160715,bonus_id=4800/1517/4783,enchant_id=5937
+waist=cord_of_septic_envelopment,id=160727,bonus_id=4800/1507/4786
+legs=leggings_of_lingering_infestation,id=160615,bonus_id=4800/1512/4783
+feet=blessing_bearers_waders,id=159311,bonus_id=5010/1557/4784
+finger1=band_of_certain_annihilation,id=160646,bonus_id=4799/1808/1512/4784,gem_id=154127,enchant_id=5943
+finger2=ring_of_the_infinite_void,id=160647,bonus_id=4800/1808/1507/4786,gem_id=154127,enchant_id=5943
+trinket1=vigilants_bloodshaper,id=160651,bonus_id=4800/1507/4786
+trinket2=balefire_branch,id=159630,bonus_id=5010/1552/4783
+main_hand=titanspark_animator,id=160680,bonus_id=4800/1808/1507/4786,gem_id=154127,enchant_id=5963
+off_hand=uldir_subject_manifest,id=160695,bonus_id=4800/1507/4786
+
+# Gear Summary
+# gear_ilvl=388.63
+# gear_stamina=7383
+# gear_intellect=5286
+# gear_crit_rating=764
+# gear_haste_rating=1306
+# gear_mastery_rating=1167
+# gear_versatility_rating=104
+# gear_armor=1190
+default_pet=felguard
+
+# Simulation Configs
+iterations="100"
+fight_style="Patchwerk"
+desired_targets="1"
+max_time="300"
+calculate_scale_factors="0"
+scale_only="strength,intellect,agility,crit,mastery,vers,haste,weapon_dps,weapon_offhand_dps"
+override.bloodlust="1"
+override.arcane_intellect="1"
+override.power_word_fortitude="1"
+override.battle_shout="1"
+override.mystic_touch="1"
+override.chaos_brand="1"
+override.bleeding="1"
+report_details="0"
+single_actor_batch="1"
+optimize_expressions="1"
+bfa.reorigination_array_stacks="10"
+
+json2=report.json
+# html=report.html
+output=log.txt

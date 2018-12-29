@@ -1,0 +1,255 @@
+
+Player: 0 void_elf warlock demonology 120
+  DPS=6304.07 DPS-Error=3.54312/0.06% DPS-Range=661.324/10.49%
+  DPR=2.50443 RPS-Out=1325 RPS-In=998.532 Resource=mana Waiting=7.9529 ApM=39.6952
+  Talents: 3123331
+  Core Stats:    strength=1524|1464(1464)  agility=1528|1468(1468)  stamina=9222|8384(8384)  intellect=8261|7092(6755)  spirit=0|0(0)  health=184440|184440  mana=100000|100000
+  Generic Stats: mastery=35.10%|35.10%(1167)  versatility=1.22%|1.22%(104)  leech=0.00%|0.00%(0)  runspeed=7.00%|7.00%(0)
+  Spell Stats:   power=8261|7092(0)  hit=15.00%|15.00%(0)  crit=15.61%|15.61%(764)  haste=19.21%|19.21%(1306)  speed=19.21%|19.21%  manareg=1000|1000(0)
+  Attack Stats:  power=0|0(0)  hit=7.50%|7.50%(0)  crit=15.61%|15.61%(764)  expertise=7.50%|7.50%(0)  haste=19.21%|19.21%(1306)  speed=19.21%|19.21%
+  Defense Stats: armor=1190|1190(1190) miss=3.00%|3.00%  dodge=3.00%|3.00%(0)  parry=0.00%|0.00%(0)  block=0.00%|0.00%(0) crit=0.00%|0.00%  versatility=0.61%|0.61%(104)
+  Priorities (actions.precombat):
+    flask/food/augmentation/summon_pet/inner_demons,if=talent.inner_demons.enabled/snapshot_stats/potion/demonbolt
+  Priorities (actions.default):
+    shadow_bolt
+  Actions:
+    demonbolt                  Count=   0.0|  0.000sec  DPE=    0| 0.46%  DPET=   0  DPR=    4  pDPS=  29  Miss= 0.00%  Hit=  7543|  7543|  7543  Crit= 15086| 15086| 15086|15.71%
+    entropic_embrace           Count=  40.5|  6.901sec  DPE=  224| 0.48%  DPET=   0  DPR=    0  pDPS=  30  Miss= 0.00%  Hit=   224|   184|   792
+    heed_my_call               Count=   7.9| 34.229sec  DPE= 8103| 2.36%  DPET=   0  DPR=    0  pDPS= 149  Miss= 0.00%  Hit=  4910|  4910|  4910  Crit=  9821|  9821|  9821|15.49%
+    heed_my_call_aoe           Count=   7.9| 34.229sec  DPE= 2432| 1.01%  DPET=   0  DPR=    0  pDPS=  64  Miss= 0.00%  Hit=  2104|  2104|  2104  Crit=  4209|  4209|  4209|15.55%
+    shadow_bolt                Count= 197.7|  1.512sec  DPE= 4159|43.56%  DPET=2984  DPR=    2  pDPS=2750  Miss= 0.00%  Hit=  3615|  3493|  3928  Crit=  7231|  6985|  7857|15.61%
+    volatile_blood_explosion   Count=   7.9| 34.596sec  DPE=11657| 4.85%  DPET=   0  DPR=    0  pDPS= 305  Miss= 0.00%  Hit= 10211| 10211| 10211  Crit= 20422| 20422| 20422|15.72%
+   felguard (DPS=2976.02)
+    felstorm                   Count=  10.4| 30.166sec  DPE=12470| 6.88%  DPET=3606  DPR=  208  pDPS= 433  TickCount=    62  MissTick= 0.00%  Tick=  1808|  1754|  1951  CritTick=  3616|  3507|  3903|15.63%  UpTime= 12.00%
+    legion_strike              Count=  63.1|  4.716sec  DPE= 5180|17.32%  DPET=5157  DPR=   86  pDPS=1091  Miss= 0.00%  Hit=  4480|  4319|  4858  Crit=  8962|  8639|  9717|15.61%
+    melee                      Count= 187.4|  1.584sec  DPE= 2323|23.07%  DPET=1673  DPR=    0  pDPS=1452  Miss= 0.00%  Hit=  2009|  1941|  2183  Crit=  4018|  3882|  4366|15.64%
+
+  Constant Buffs:
+    arcane_intellect/battle_shout/battlescarred_augmentation/bountiful_captains_feast/flask_of_endless_fathoms/power_word_fortitude
+    reorigination_array
+  Dynamic Buffs:
+    archive_of_the_titans      : start=  1.0 refresh= 58.5 interval=  0.0 trigger=  5.0 uptime= 98.31%
+    battle_potion_of_intellect : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 uptime=  7.77%
+    bloodlust                  : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 uptime= 13.52%
+    demonic_calling            : start=  3.2 refresh= 36.6 interval= 99.1 trigger=  7.4 uptime= 92.83%
+    entropic_embrace           : start=  5.1 refresh=  0.0 interval= 64.0 trigger= 64.0 uptime= 20.18%
+    overwhelming_power         : start=  4.5 refresh=  3.3 interval= 65.2 trigger= 34.6 uptime= 46.33%
+    quick_navigation           : start=  6.0 refresh= 22.4 interval= 52.2 trigger= 10.3 uptime= 67.43%
+    quick_navigation_final     : start=  5.4 refresh=  0.0 interval= 52.2 trigger= 52.2 uptime= 17.52%
+    resounding_protection      : start= 10.5 refresh=  0.0 interval= 30.0 trigger= 30.0 uptime=100.00%
+  Procs:
+    1 | 0sec : Reorigination Array: Haste
+  Gains:
+         2.0 : demonbolt    (soul_shard)   
+         0.0 : shadow_bolt  (soul_shard)     (overflow=100.00%)
+    299559.0 : mana_regen   (mana)         
+    Pet "felguard" Gains:
+      4271.6 : energy_regen (energy)       
+  Waiting:  7.95%
+
+Player: 1 void_elf warlock demonology 120
+  DPS=6111.16 DPS-Error=3.32843/0.05% DPS-Range=649.431/10.63%
+  DPR=4.86617 RPS-Out=643.086 RPS-In=638.429 Resource=mana Waiting=0 ApM=19.2922
+  Talents: 3123331
+  Core Stats:    strength=1524|1464(1464)  agility=1528|1468(1468)  stamina=9222|8384(8384)  intellect=8261|7092(6755)  spirit=0|0(0)  health=184440|167680  mana=100000|100000
+  Generic Stats: mastery=35.10%|35.10%(1167)  versatility=1.22%|1.22%(104)  leech=0.00%|0.00%(0)  runspeed=7.00%|7.00%(0)
+  Spell Stats:   power=8261|7092(0)  hit=15.00%|15.00%(0)  crit=15.61%|15.61%(764)  haste=19.21%|19.21%(1306)  speed=19.21%|19.21%  manareg=1000|1000(0)
+  Attack Stats:  power=0|0(0)  hit=7.50%|7.50%(0)  crit=15.61%|15.61%(764)  expertise=7.50%|7.50%(0)  haste=19.21%|19.21%(1306)  speed=19.21%|19.21%
+  Defense Stats: armor=1190|1190(1190) miss=3.00%|3.00%  dodge=3.00%|3.00%(0)  parry=0.00%|0.00%(0)  block=0.00%|0.00%(0) crit=0.00%|0.00%  versatility=0.61%|0.61%(104)
+  Priorities (actions.precombat):
+    flask/food/augmentation/summon_pet/inner_demons,if=talent.inner_demons.enabled/snapshot_stats/potion/demonbolt
+  Priorities (actions.default):
+    demonbolt
+  Actions:
+    demonbolt                  Count=  95.5|  3.122sec  DPE= 8134|42.38%  DPET=2602  DPR=    4  pDPS=2589  Miss= 0.00%  Hit=  6990|  6752|  7595  Crit= 13981| 13505| 15190|15.58%
+    entropic_embrace           Count=  19.6| 14.303sec  DPE=  429| 0.46%  DPET=   0  DPR=    0  pDPS=  28  Miss= 0.00%  Hit=   429|   355|   798
+    heed_my_call               Count=   7.8| 34.552sec  DPE= 8107| 2.43%  DPET=   0  DPR=    0  pDPS= 149  Miss= 0.00%  Hit=  4910|  4910|  4910  Crit=  9821|  9821|  9821|15.57%
+    heed_my_call_aoe           Count=   7.8| 34.552sec  DPE= 2432| 1.04%  DPET=   0  DPR=    0  pDPS=  64  Miss= 0.00%  Hit=  2104|  2104|  2104  Crit=  4209|  4209|  4209|15.54%
+    volatile_blood_explosion   Count=   7.8| 35.050sec  DPE=11639| 4.93%  DPET=   0  DPR=    0  pDPS= 301  Miss= 0.00%  Hit= 10211| 10211| 10211  Crit= 20422| 20422| 20422|15.60%
+   felguard (DPS=2980.35)
+    felstorm                   Count=  10.4| 30.172sec  DPE=12474| 7.08%  DPET=3610  DPR=  208  pDPS= 433  TickCount=    62  MissTick= 0.00%  Tick=  1808|  1754|  1951  CritTick=  3616|  3507|  3903|15.68%  UpTime= 11.99%
+    legion_strike              Count=  63.2|  4.710sec  DPE= 5179|17.87%  DPET=5156  DPR=   86  pDPS=1092  Miss= 0.00%  Hit=  4480|  4319|  4858  Crit=  8962|  8639|  9717|15.60%
+    melee                      Count= 187.9|  1.580sec  DPE= 2322|23.81%  DPET=1674  DPR=    0  pDPS=1455  Miss= 0.00%  Hit=  2009|  1941|  2183  Crit=  4018|  3882|  4366|15.57%
+
+  Constant Buffs:
+    arcane_intellect/battle_shout/battlescarred_augmentation/bountiful_captains_feast/flask_of_endless_fathoms/power_word_fortitude
+    reorigination_array
+  Dynamic Buffs:
+    archive_of_the_titans      : start=  1.0 refresh= 58.5 interval=  0.0 trigger=  5.0 uptime= 98.31%
+    battle_potion_of_intellect : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 uptime=  7.77%
+    bloodlust                  : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 uptime= 13.52%
+    demonic_calling            : start=  5.6 refresh= 13.7 interval= 54.6 trigger= 15.0 uptime= 74.36%
+    entropic_embrace           : start=  4.8 refresh=  0.0 interval= 68.0 trigger= 68.0 uptime= 18.90%
+    overwhelming_power         : start=  4.5 refresh=  3.3 interval= 63.9 trigger= 34.5 uptime= 47.11%
+    quick_navigation           : start=  5.9 refresh= 22.1 interval= 53.1 trigger= 10.5 uptime= 67.31%
+    quick_navigation_final     : start=  5.3 refresh=  0.0 interval= 53.1 trigger= 53.1 uptime= 17.22%
+    resounding_protection      : start= 10.5 refresh=  0.0 interval= 30.0 trigger= 30.0 uptime=100.00%
+  Up-Times:
+      8.50% : Mana Cap                      
+  Procs:
+    1 | 0sec : Reorigination Array: Haste
+  Gains:
+         2.0 : demonbolt    (soul_shard)     (overflow=98.96%)
+    191528.8 : mana_regen   (mana)           (overflow=35.95%)
+    Pet "felguard" Gains:
+      4275.9 : energy_regen (energy)       
+  Waiting:  0.00%
+
+Player: Nuraki void_elf warlock demonology 120
+  DPS=19558.5 DPS-Error=9.17837/0.05% DPS-Range=1723.21/8.81%
+  DPR=6.62702 RPS-Out=1033.31 RPS-In=989.017 Resource=mana Waiting=0 ApM=50.2342
+  Talents: 3123331
+  Core Stats:    strength=1524|1464(1464)  agility=1528|1468(1468)  stamina=9222|8384(8384)  intellect=8261|7092(6755)  spirit=0|0(0)  health=184440|184440  mana=100000|100000
+  Generic Stats: mastery=35.10%|35.10%(1167)  versatility=1.22%|1.22%(104)  leech=0.00%|0.00%(0)  runspeed=7.00%|7.00%(0)
+  Spell Stats:   power=8261|7092(0)  hit=15.00%|15.00%(0)  crit=15.61%|15.61%(764)  haste=19.21%|19.21%(1306)  speed=19.21%|19.21%  manareg=1000|1000(0)
+  Attack Stats:  power=0|0(0)  hit=7.50%|7.50%(0)  crit=15.61%|15.61%(764)  expertise=7.50%|7.50%(0)  haste=19.21%|19.21%(1306)  speed=19.21%|19.21%
+  Defense Stats: armor=1190|1190(1190) miss=3.00%|3.00%  dodge=3.00%|3.00%(0)  parry=0.00%|0.00%(0)  block=0.00%|0.00%(0) crit=0.00%|0.00%  versatility=0.61%|0.61%(104)
+  Priorities (actions.precombat):
+    flask/food/augmentation/summon_pet/inner_demons,if=talent.inner_demons.enabled/snapshot_stats/potion/demonbolt
+  Priorities (actions.default):
+    potion,if=pet.demonic_tyrant.active|target.time_to_die<30/use_items,if=pet.demonic_tyrant.active|target.time_to_die<=15
+    berserking,if=pet.demonic_tyrant.active|target.time_to_die<=15/blood_fury,if=pet.demonic_tyrant.active|target.time_to_die<=15
+    fireblood,if=pet.demonic_tyrant.active|target.time_to_die<=15/doom,if=!ticking&time_to_die>30&spell_targets.implosion<2
+    demonic_strength,if=(buff.wild_imps.stack<6|buff.demonic_power.up)|spell_targets.implosion<2
+    call_action_list,name=nether_portal,if=talent.nether_portal.enabled&spell_targets.implosion<=2
+    call_action_list,name=implosion,if=spell_targets.implosion>1/grimoire_felguard,if=cooldown.summon_demonic_tyrant.remains<13|!equipped.132369
+    summon_vilefiend,if=equipped.132369|cooldown.summon_demonic_tyrant.remains>40|cooldown.summon_demonic_tyrant.remains<12
+    call_dreadstalkers,if=equipped.132369|(cooldown.summon_demonic_tyrant.remains<9&buff.demonic_calling.remains)|(cooldown.summon_demonic_tyrant.remains<11&!buff.demonic_calling.remains)|cooldown.summon_demonic_tyrant.remains>14
+    summon_demonic_tyrant,if=equipped.132369|(buff.dreadstalkers.remains>cast_time&(buff.wild_imps.stack>=3+talent.inner_demons.enabled+talent.demonic_consumption.enabled*3|prev_gcd.1.hand_of_guldan&(!talent.demonic_consumption.enabled|buff.wild_imps.stack>=3+talent.inner_demons.enabled))&(soul_shard<3|buff.dreadstalkers.remains<gcd*2.7|buff.grimoire_felguard.remains<gcd*2.7))
+    power_siphon,if=buff.wild_imps.stack>=2&buff.demonic_core.stack<=2&buff.demonic_power.down&spell_targets.implosion<2
+    doom,if=talent.doom.enabled&refreshable&time_to_die>(dot.doom.remains+30)
+    hand_of_guldan,if=soul_shard>=5|(soul_shard>=3&cooldown.call_dreadstalkers.remains>4&(!talent.summon_vilefiend.enabled|cooldown.summon_vilefiend.remains>3))
+    soul_strike,if=soul_shard<5&buff.demonic_core.stack<=2
+    demonbolt,if=soul_shard<=3&buff.demonic_core.up&((cooldown.summon_demonic_tyrant.remains<10|cooldown.summon_demonic_tyrant.remains>22)|buff.demonic_core.stack>=3|buff.demonic_core.remains<5|time_to_die<25)
+    bilescourge_bombers/call_action_list,name=build_a_shard
+  Priorities (actions.build_a_shard):
+    soul_strike/shadow_bolt
+  Actions:
+    bilescourge_bombers        Count=   9.3| 33.769sec  DPE=40676| 6.43%  DPET=38847  DPR=    0  pDPS=1256  MissTick= 0.00%  Tick=  2954|  2772|  3882  CritTick=  5909|  5545|  7764|15.64%
+    call_dreadstalkers         Count=  14.8| 20.801sec  DPE=    0| 0.00%  DPET=    0  DPR=    0  pDPS=   0
+    demonbolt                  Count=  44.3|  6.058sec  DPE=10234| 7.74%  DPET= 9700  DPR=    5  pDPS=1513  Miss= 0.00%  Hit=  8687|  6884| 15405  Crit= 17376| 13794| 29029|15.66%
+    entropic_embrace           Count=  42.0|  6.632sec  DPE=  374| 0.27%  DPET=    0  DPR=    0  pDPS=  52  Miss= 0.00%  Hit=   374|   188|  1495
+    grimoire_felguard          Count=   3.0|120.744sec  DPE=    0| 0.00%  DPET=    0  DPR=    0  pDPS=   0
+    hand_of_guldan             Count=  58.0|  5.038sec  DPE= 7419| 7.34%  DPET= 7100  DPR=    0  pDPS=1435  Miss= 0.00%  Hit=  6435|  6060|  7946  Crit= 12865| 12120| 15892|15.57%
+    heed_my_call               Count=   7.8| 34.533sec  DPE= 8110| 0.76%  DPET=    0  DPR=    0  pDPS= 148  Miss= 0.00%  Hit=  4910|  4910|  4910  Crit=  9821|  9821|  9821|15.57%
+    heed_my_call_aoe           Count=   7.8| 34.533sec  DPE= 2436| 0.33%  DPET=    0  DPR=    0  pDPS=  64  Miss= 0.00%  Hit=  2104|  2104|  2104  Crit=  4209|  4209|  4209|15.74%
+    potion                     Count=   2.0|  0.000sec  DPE=    0| 0.00%  DPET=    0  DPR=    0  pDPS=   0
+    shadow_bolt                Count= 106.1|  2.782sec  DPE= 5875|10.64%  DPET= 4218  DPR=    3  pDPS=2080  Miss= 0.00%  Hit=  5113|  3574|  8580  Crit= 10232|  7148| 16488|15.62%
+    summon_demonic_tyrant      Count=   3.5| 94.802sec  DPE=    0| 0.00%  DPET=    0  DPR=    0  pDPS=   0
+    summon_vilefiend           Count=   6.9| 46.918sec  DPE=    0| 0.00%  DPET=    0  DPR=    0  pDPS=   0
+    volatile_blood_explosion   Count=   7.8| 34.513sec  DPE=11638| 1.55%  DPET=    0  DPR=    0  pDPS= 304  Miss= 0.00%  Hit= 10211| 10211| 10211  Crit= 20422| 20422| 20422|15.59%
+   felguard (DPS=3194.26)
+    felstorm                   Count=  10.4| 30.165sec  DPE=13172| 2.34%  DPET= 3810  DPR=  219  pDPS= 457  TickCount=    62  MissTick= 0.00%  Tick=  1909|  1754|  2748  CritTick=  3817|  3507|  5346|15.67%  UpTime= 11.99%
+    legion_strike              Count=  63.2|  4.710sec  DPE= 5558| 5.99%  DPET= 5534  DPR=   93  pDPS=1172  Miss= 0.00%  Hit=  4809|  4328|  6982  Crit=  9623|  8655| 13964|15.56%
+    melee                      Count= 187.8|  1.581sec  DPE= 2499| 8.01%  DPET= 1802  DPR=    0  pDPS=1565  Miss= 0.00%  Hit=  2161|  1945|  3137  Crit=  4320|  3889|  6275|15.63%
+   grimoire_felguard (DPS=5293.02)
+    axe_toss                   Count=   4.0|105.366sec  DPE=    0| 0.00%  DPET=    0  DPR=    0  pDPS=   0
+    felstorm                   Count=   4.0| 80.218sec  DPE=13980| 0.95%  DPET= 5347  DPR=  233  pDPS= 862  TickCount=    19  MissTick= 0.00%  Tick=  2480|  2192|  3404  CritTick=  4964|  4384|  6871|15.54%  UpTime= 16.10%
+    legion_strike              Count=  19.6| 13.240sec  DPE= 7304| 2.44%  DPET= 7304  DPR=  122  pDPS=2215  Miss= 0.00%  Hit=  6319|  5410|  8433  Crit= 12632| 10819| 16866|15.61%
+    melee                      Count=  42.5|  6.171sec  DPE= 3365| 2.44%  DPET= 2881  DPR=    0  pDPS=2216  Miss= 0.00%  Hit=  2912|  2431|  3852  Crit=  5825|  4862|  7648|15.56%
+   vilefiend (DPS=3334.74)
+    bile_spit                  Count=   6.9| 46.918sec  DPE=24648| 2.89%  DPET=    0  DPR=    0  pDPS=1120  Miss= 0.00%  Hit=  9303|  9030| 10337  Crit= 18598| 18059| 19980|15.70%  TickCount=    34  MissTick= 0.00%  Tick=  2838|  2661|  4252  UpTime= 44.43%
+    headbutt                   Count=  30.5|  9.711sec  DPE= 3904| 2.03%  DPET= 3904  DPR=    0  pDPS= 784  Miss= 0.00%  Hit=  3377|  2908|  4655  Crit=  6751|  5815|  9309|15.61%
+    melee                      Count= 112.8|  2.593sec  DPE= 1922| 3.70%  DPET= 1491  DPR=    0  pDPS=1431  Miss= 0.00%  Hit=  1663|  1414|  2282  Crit=  3325|  2829|  4563|15.57%
+   dreadstalker (DPS=3656.95)
+    dreadbite                  Count=  29.4| 20.801sec  DPE= 7545| 3.78%  DPET=    0  DPR=    0  pDPS=1092  Miss= 0.00%  Hit=  6527|  6097|  8997  Crit= 13045| 12193| 17995|15.62%
+    melee                      Count= 335.6|  1.763sec  DPE= 1553| 8.89%  DPET= 1233  DPR=    0  pDPS=2565  Miss= 0.00%  Hit=  1343|  1174|  1894  Crit=  2687|  2348|  3788|15.58%
+   demonic_tyrant (DPS=6195.43)
+    demonfire                  Count=  36.9|  6.990sec  DPE= 8722| 5.50%  DPET= 6532  DPR=    0  pDPS=6195  Miss= 0.00%  Hit=  7565|  6719|  8282  Crit= 15127| 13437| 16565|15.59%
+   wild_imp (DPS=3394.29)
+    fel_firebolt               Count=1174.3|  0.246sec  DPE=  797|15.97%  DPET=  579  DPR=   55  pDPS=3394  Miss= 0.00%  Hit=   692|   606|   978  Crit=  1384|  1212|  1956|15.61%
+
+  Constant Buffs:
+    arcane_intellect/battle_shout/battlescarred_augmentation/bountiful_captains_feast/flask_of_endless_fathoms/power_word_fortitude
+    reorigination_array
+  Dynamic Buffs:
+    archive_of_the_titans                 : start=  1.0 refresh= 58.5 interval=  0.0 trigger=  5.0 uptime= 98.31%
+    battle_potion_of_intellect            : start=  2.0 refresh=  0.0 interval=107.9 trigger=  0.0 uptime= 16.22%
+    bloodlust                             : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 uptime= 13.52%
+    demonic_calling                       : start= 13.2 refresh= 17.1 interval= 22.8 trigger=  9.6 uptime= 53.66%  benefit= 85.32%
+    demonic_core                          : start= 22.7 refresh= 28.3 interval= 12.4 trigger=  5.4 uptime= 29.85%  benefit= 97.75%
+    demonic_power                         : start=  3.5 refresh=  0.0 interval= 94.8 trigger= 94.8 uptime= 17.36%
+    dreadstalkers                         : start= 11.4 refresh= 18.1 interval= 27.3 trigger= 10.0 uptime= 67.76%
+    entropic_embrace                      : start=  5.2 refresh=  0.0 interval= 63.4 trigger= 63.4 uptime= 20.33%
+    grimoire_felguard                     : start=  3.0 refresh=  0.0 interval=120.7 trigger=120.7 uptime= 19.82%
+    kindled_soul                          : start=  3.6 refresh=  0.0 interval= 94.6 trigger= 94.6 uptime= 23.20%
+    overwhelming_power                    : start=  4.5 refresh=  3.3 interval= 64.8 trigger= 34.6 uptime= 46.57%
+    quick_navigation                      : start=  6.0 refresh= 22.4 interval= 52.2 trigger= 10.3 uptime= 67.60%
+    quick_navigation_final                : start=  5.4 refresh=  0.0 interval= 52.1 trigger= 52.1 uptime= 17.50%
+    resounding_protection                 : start= 10.5 refresh=  0.0 interval= 30.0 trigger= 30.0 uptime=100.00%
+    tyrant                                : start=  3.5 refresh=  0.0 interval= 94.8 trigger= 94.8 uptime= 17.36%
+    vilefiend                             : start=  6.9 refresh=  0.0 interval= 46.9 trigger= 46.9 uptime= 50.58%
+    wild_imps                             : start=  7.6 refresh=165.6 interval= 40.1 trigger=  0.0 uptime= 92.03%
+    grimoire_felguard-grimoire_of_service : start=  3.0 refresh=  0.0 interval=120.7 trigger=120.7 uptime=100.00%
+  Up-Times:
+      0.85% : Mana Cap                      
+  Procs:
+    1 | 0sec : Reorigination Array: Haste
+    57.9814 | 5.03712sec : three_shard_hog
+  Gains:
+        90.6 : demonbolt          (soul_shard)   
+       106.1 : shadow_bolt        (soul_shard)   
+    296710.5 : mana_regen         (mana)         
+         8.7 : demonic_meteor     (soul_shard)   
+        13.1 : baleful_invocation (soul_shard)     (overflow=26.10%)
+    Pet "felguard" Gains:
+      4275.0 : energy_regen       (energy)       
+    Pet "grimoire_felguard" Gains:
+       945.6 : energy_regen       (energy)         (overflow=5.37%)
+    Pet "vilefiend" Gains:
+    Pet "dreadstalker" Gains:
+    Pet "demonic_tyrant" Gains:
+         0.0 : energy_regen       (energy)         (overflow=100.00%)
+    Pet "wild_imp" Gains:
+  Waiting:  0.00%
+
+
+ *** Targets *** 
+
+Target: Fluffy_Pillow humanoid enemy unknown 123
+  DTPS=10658.8 DTPS-Error=71.3223/0.67% DTPS-Range=8016.74/75.21%
+  DPR=0 RPS-Out=10439.4 RPS-In=0 Resource=health Waiting=0 ApM=0
+  Talents: 0000000
+  Core Stats:    strength=0|0(0)  agility=0|0(0)  stamina=0|0(0)  intellect=0|0(0)  spirit=0|0(0)  health=0|1469467  mana=0|0
+  Generic Stats: mastery=0.00%|0.00%(0)  versatility=0.00%|0.00%(0)  leech=0.00%|0.00%(0)  runspeed=7.00%|7.00%(0)
+  Spell Stats:   power=0|0(0)  hit=0.00%|0.00%(0)  crit=0.00%|0.00%(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%  manareg=0|0(0)
+  Attack Stats:  power=0|0(0)  hit=0.00%|0.00%(0)  crit=5.00%|5.00%(0)  expertise=0.00%|0.00%(0)  haste=0.00%|0.00%(0)  speed=0.00%|0.00%
+  Defense Stats: armor=2700|2700(2700) miss=3.00%|3.00%  dodge=3.00%|3.00%(0)  parry=3.00%|3.00%(0)  block=3.00%|3.00%(0) crit=0.00%|0.00%  versatility=0.00%|0.00%(0)
+  Priorities (actions.precombat):
+    snapshot_stats
+  Priorities (actions.default):
+
+  Actions:
+
+  Constant Buffs:
+    arcane_intellect/battle_shout/bleeding/chaos_brand/mortal_wounds/mystic_touch/power_word_fortitude
+  Dynamic Buffs:
+    Health Decade (0 - 10)   : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 uptime= 11.10%
+    Health Decade (10 - 20)  : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 uptime= 10.74%
+    Health Decade (20 - 30)  : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 uptime= 10.74%
+    Health Decade (30 - 40)  : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 uptime= 10.63%
+    Health Decade (40 - 50)  : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 uptime= 10.43%
+    Health Decade (50 - 60)  : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 uptime=  9.77%
+    Health Decade (60 - 70)  : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 uptime= 11.00%
+    Health Decade (70 - 80)  : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 uptime= 10.92%
+    Health Decade (80 - 90)  : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 uptime=  7.58%
+    Health Decade (90 - 100) : start=  1.0 refresh=  0.0 interval=  0.0 trigger=  0.0 uptime=  7.09%
+  Waiting:  0.00%
+
+
+Baseline Performance:
+  RNG Engine    = sse2-sfmt
+  Iterations    = 10000 (8252, 7253, 7240, 7258)
+  TotalEvents   = 105 518 318
+  MaxEventQueue = 131
+  TargetHealth  = 1469468
+  SimSeconds    = 8.99734e+06
+  CpuSeconds    = 237
+  WallSeconds   = 72.9671
+  InitSeconds   = 0.165945
+  MergeSeconds  = 0.0273819
+  AnalyzeSeconds= 0.408854
+  SpeedUp       = 12658.3
+  EndTime       = 2018-12-29 00:47:24+0100 (1546040844)
+
+
