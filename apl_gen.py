@@ -7,10 +7,11 @@ actions = np.array(["use_items", "potion", "call_dreadstalkers", "summon_demonic
 
 conditions = np.array(["", "soul_shard>=3"], dtype=np.object)
 
-# Generate APL
 chromosomes = []
 
-for i in range(2):
+for i in range(20):
+
+        print("Iteration: " + str(i))
 
         for i in range(1000-len(chromosomes)):
                 chromosomes.append({"Genes" : np.random.choice(actions + ',if=' + np.random.choice(conditions, len(actions)), len(actions), False)})
@@ -18,26 +19,25 @@ for i in range(2):
         file.write("apl_gen_base.simc\n")
 
         for i in range(1000):
-                file.write("copy=\"" + str(i) + "\"\n")
-                file.write("actions=/" + chromosomes[i]["Genes"][0] + "\n")
+                file.write("profileset.\"" + str(i) + "\"=\"actions=/" + chromosomes[i]["Genes"][0] + "\n")
                 for j in range(1, len(chromosomes[i]["Genes"])):
-                        file.write("actions+=/" + chromosomes[i]["Genes"][j] + "\n")
+                        file.write("profileset.\"" + str(i) + "\"+=\"actions+=/" + chromosomes[i]["Genes"][j] + "\n")
 
         file.close()
 
-        subprocess.run(["C:\Simulationcraft(x64)\810-01\simc.exe", 'apl_gen_run.simc'])
+        subprocess.run([r"C:\Simulationcraft(x64)\810-01\simc.exe", 'apl_gen_run.simc'])
 
         dps = {}
 
         json_data = open("report.json")
         data = json.load(json_data)
 
-        players = data["sim"]["players"]
+        results = data["sim"]["profilesets"]["results"]
 
-        for player in players:
-                if(player["name"] == "Nuraki"):
+        for result in results:
+                if(result["name"] == "Nuraki"):
                         continue
-                chromosomes[int(player["name"])]["DPS"] = player["collected_data"]["dps"]["mean"]
+                chromosomes[int(result["name"])]["DPS"] = result["mean"]
 
         json_data.close()
 

@@ -76,5 +76,8 @@ optimize_expressions="1"
 bfa.reorigination_array_stacks="10"
 
 json2=report.json
-# html=report.html
+html=report.html
 output=log.txt
+
+threads=4
+profileset_work_threads=1
