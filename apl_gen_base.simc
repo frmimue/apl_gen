@@ -79,5 +79,7 @@ json2=tmp\report.json
 html=tmp\report.html
 output=tmp\log.txt
 
-threads=4
-profileset_work_threads=1
+threads=8
+profileset_work_threads=2
+
+use_item_verification=0
