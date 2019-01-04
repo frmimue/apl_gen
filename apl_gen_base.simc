@@ -76,7 +76,6 @@ optimize_expressions="1"
 bfa.reorigination_array_stacks="10"
 
 json2=tmp\report.json
-html=tmp\report.html
 output=tmp\log.txt
 
 threads=8
