@@ -140,8 +140,8 @@ class APL:
                                 return
 
 
-NUM_APLS = sys.argv[1]
-ITERATIONS = sys.argv[2]
+NUM_APLS = int(sys.argv[1])
+ITERATIONS = int(sys.argv[2])
 
 apls = []
 
