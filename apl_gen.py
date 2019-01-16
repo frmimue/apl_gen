@@ -4,6 +4,7 @@ import subprocess
 from operator import itemgetter
 import copy
 import sys
+import time
 
 class Condition:
 
@@ -114,6 +115,20 @@ class APL:
                         retval += "actions+=/" + str(self.actions[i]) + "\n"
                 retval += '\n'
                 return retval
+
+        def loadProfileSetResultDataFromJson(jsonFilePath, apls):
+                
+                json_file = open(jsonFilePath)
+                json_data = json.load(json_file)
+
+                results = json_data["sim"]["profilesets"]["results"]
+
+                data = []
+
+                for result in results:
+                        apls[int(result["name"])].dps = int(result["median"])
+
+                json_file.close()
                 
 
         def crossover(self, other):
@@ -148,6 +163,7 @@ apls = []
 evolutions = []
 
 ## Init
+start_time = time.perf_counter()
 
 for i in range(NUM_APLS):
         apls.append(APL.random(30))
@@ -166,15 +182,21 @@ for i in range(ITERATIONS):
         ## Run SimC and collect data
         subprocess.run([r"C:\Simulationcraft(x64)\810-01\simc.exe", r"tmp\apl_gen_run.simc", r"html=tmp\report-" + str(i) + r".html"])
 
-        json_data = open(r"tmp\report.json")
-        data = json.load(json_data)
+        results = APL.loadProfileSetResultDataFromJson(r"tmp\report.json", apls)
 
-        results = data["sim"]["profilesets"]["results"]
+        #for i in len(results):
+         #       apls[i].dps = results[i].dps
 
-        for result in results:
-                apls[int(result["name"])].dps = int(result["median"])
 
-        json_data.close()
+        #json_file = open(r"tmp\report.json")
+        #json = json.load(json_file)
+#
+#        results = json["sim"]["profilesets"]["results"]
+#
+#        for result in results:
+#                apls[int(result["name"])].dps = int(result["median"])
+#
+#        json_file.close()
 
         apls = sorted(apls, reverse=True)
 
@@ -215,5 +237,10 @@ for i in range(ITERATIONS):
                 apls[j].mutate(1.0)
 
 print('########################################')
+
+end_time = time.perf_counter()
+
+print("Run Time: " + str(end_time - start_time))
+
 for evolution in evolutions:
         print(evolution)
